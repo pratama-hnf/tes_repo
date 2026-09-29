@@ -1,0 +1,43 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Rust build artifacts
+target/
+**/target/
+.embuild/
+**/.embuild/
+
+# Environment variables & Sensitive data
+.env
+**/.env
+.env.*
+**/.env.*
+!**/.env.example
+!**/.env.template
+local.settings.json
+**/local.settings.json
+
+# Azure Function artifacts & Azurite storage
+bin/
+obj/
+appsettings.json
+**/appsettings.json
+__blobstorage__/
+__queuestorage__/
+__azurite_db*__.json
+.azurefunctions/
+
+# Build outputs & Caches
+dist/
+**/dist/
+build/
+**/build/
+.cache/
+*.log
+logs/
+
+# Operating System files
+.DS_Store
+Thumbs.db
+desktop.ini
