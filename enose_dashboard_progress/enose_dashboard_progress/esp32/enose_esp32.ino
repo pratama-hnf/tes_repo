@@ -6,8 +6,8 @@ const char* WIFI_SSID = "YOUR_WIFI";
 const char* WIFI_PASSWORD = "YOUR_PASSWORD";
 
 // IP komputer yang menjalankan Rust backend.
-// Contoh: http://192.168.1.10:8080/api/sampling
-const char* BACKEND_URL = "http://192.168.1.10:8080/api/sampling";
+// Contoh: http://192.168.1.10:8081/api/sampling
+const char* BACKEND_URL = "http://192.168.1.10:8081/api/sampling";
 
 const int MQ2_PIN = 1;
 const int MQ3_PIN = 2;

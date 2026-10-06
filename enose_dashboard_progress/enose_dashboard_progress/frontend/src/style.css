@@ -37,9 +37,20 @@ h1 {
   cursor: pointer;
   transition: background 0.2s;
 }
+.export-pdf {
+  background: #d35400 !important;
+}
 
-.toolbar button:hover {
-  background: #ba4a00;
+.export-pdf:hover {
+  background: #ba4a00 !important;
+}
+
+.export-csv {
+  background: #27ae60 !important;
+}
+
+.export-csv:hover {
+  background: #219150 !important;
 }
 
 .cards {
